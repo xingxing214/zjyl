@@ -428,7 +428,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
 }
 
@@ -491,7 +491,7 @@ h6 {
 
 #hero .hero-slider::before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -507,6 +507,11 @@ h6 {
   background-position: center;
   background-repeat: no-repeat;
   transition-property: opacity;
+}
+
+.m-pic{
+  width: 330px;
+  height: auto;
 }
 
 /*--------------------------------------------------------------
@@ -888,7 +893,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
